@@ -1,0 +1,116 @@
+/* Asosiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a; /* To'q qora fon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.image-container img{
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+}
+.rasm{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+/* Hero Card dizayni */
+.hero-card {
+    background: #141414;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px 25px;
+    border-radius: 40px;
+    text-align: center;
+    border: 1px solid #222;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* Rasm atrofidagi nur */
+.image-container {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d4af37; /* Oltin rang */
+    padding: 5px;
+}
+
+/* Matnlar */
+h1 {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.specialty {
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Tugmalar uslubi */
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 15px;
+    background: #1d1d1d;
+    transition: all 0.3s ease;
+    border: 1px solid #333;
+}
+
+.btn i {
+    font-size: 20px;
+    width: 30px;
+}
+
+.btn span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Har bir tugma uchun alohida rang effektlari */
+.btn-call:hover { border-color: #2ecc71; background: rgba(46, 204, 113, 0.1); }
+.btn-loc:hover { border-color: #e74c3c; background: rgba(231, 76, 60, 0.1); }
+.btn-tg:hover { border-color: #0088cc; background: rgba(0, 136, 204, 0.1); }
+.btn-inst:hover { border-color: #e1306c; background: rgba(225, 48, 108, 0.1); }
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 1px;
+}
